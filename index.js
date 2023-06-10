@@ -99,13 +99,13 @@ module.exports = alpha = async (alpha, bot) => {
         }
         switch (command) {
             case "tes": {
-                reply("`I'm here`")
+                reply("`Aku disini tuan! 👋`")
             }
             break
             case 'owner':
             case 'creator': {
                 await alpha.sendContact(OWNER_NUMBER, OWNER_NAME)
-                reply(`My lord [${OWNER_NAME}](${OWNER[0]}) 👑`)
+                reply(`Owner/Creator: [${OWNER_NAME}](${OWNER[0]}) 👑`)
             }
             break
             case 'sc':
@@ -115,11 +115,11 @@ module.exports = alpha = async (alpha, bot) => {
                     reply_markup: {
                         inline_keyboard: [
                             [{
-                                text: 'Github',
-                                url: "https://github.com/zeeoneofficial/telebot"
+                                text: 'My Website ><',
+                                url: "https://prioprasty.github.io/bucin/"
                             }, {
-                                text: 'YouTube',
-                                url: "https://www.youtube.com/@zeeoneofc"
+                                text: 'Mau scriptnya?',
+                                url: "Eitts!, segera hadir!"
                             }]
                         ]
                     }
