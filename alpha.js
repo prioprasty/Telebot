@@ -10,7 +10,7 @@ const fs = require('fs')
 const os = require('os')
 const speed = require('performance-now')
 
-if (BOT_TOKEN == 'YOUR_TELEGRAM_BOT_TOKEN') {
+if (BOT_TOKEN == '6199891905:AAE47honOvyUmeGHo05fqLVbbMtlbf0DSxw') {
     return console.log(lang.noToken)
 }
 
@@ -140,13 +140,13 @@ async function startalpha() {
                 break
                 case "owner": {
                     await alpha.sendContact(OWNER_NUMBER, OWNER_NAME)
-                    reply(`My lord [${OWNER_NAME}](${OWNER[0]}) 👑`)
+                    reply(`Onwer/Creator [${OWNER_NAME}](${OWNER[0]}) 👑`)
                 }
                 break
                 case "ytmp3": {
-                    if (!args[2]) return reply(`Kirim perintah:\n/ytmp3 link youtube\n\nContoh penggunaan:\n/ytmp3 https://youtu.be/kwop2Eg5QY4`)
-                    if (!isUrl(args[2])) return reply(`Kirim perintah:\n/ytmp3 link youtube\n\nContoh penggunaan:\n/ytmp3 https://youtu.be/kwop2Eg5QY4`)
-                    if (!args[2].includes('youtu.be') && !args[2].includes('youtube.com')) return reply(`Kirim perintah:\n/ytmp3 link youtube\n\nContoh penggunaan:\n/ytmp3 https://youtu.be/kwop2Eg5QY4`)
+                    if (!args[2]) return reply(`Kirim perintah:\n/ytmp3 link youtube\n\nContoh penggunaan:\n/ytmp3 https://youtu.be/kwop2EgpjhQY4`)
+                    if (!isUrl(args[2])) return reply(`Kirim perintah:\n/ytmp3 link youtube\n\nContoh penggunaan:\n/ytmp3 https://youtu.be/kwopoEgug5QY4`)
+                    if (!args[2].includes('youtu.be') && !args[2].includes('youtube.com')) return reply(`Kirim perintah:\n/ytmp3 link youtube\n\nContoh penggunaan:\n/ytmp3 https://youtu.be/kwop2Eg5kY4`)
                     reply(lang.wait)
                     await alpha.deleteMessage()
                     let res = await fetch(global.api('alfa', '/api/downloader/youtube-audio', {
@@ -265,8 +265,8 @@ async function startalpha() {
             reply_markup: {
                 inline_keyboard: [
                     [{
-                        text: 'Script',
-                        url: "https://github.com/zeeoneofficial/telebot"
+                        text: 'Instagram',
+                        url: "Https:/Instagram.com/2.7..620.05"
                     }, {
                         text: 'Owner',
                         url: OWNER[0]
@@ -284,8 +284,8 @@ async function startalpha() {
             reply_markup: {
                 inline_keyboard: [
                     [{
-                        text: 'Script',
-                        url: "https://github.com/zeeoneofficial/telebot"
+                        text: 'Instagram',
+                        url: "Https:/Instagram.com/2.7..620.05"
                     }, {
                         text: 'Owner',
                         url: OWNER[0]
@@ -308,7 +308,7 @@ async function startalpha() {
             "Username": "@" + getme.username,
             "ID": getme.id,
             "Link": `https://t.me/${getme.username}`,
-            "Author": "https://t.me/zeeoneofc"
+            "Author": "https://t.me/Megantr0pusPalaeojavanicus"
         })
     })
 }
