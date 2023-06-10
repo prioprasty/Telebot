@@ -365,7 +365,7 @@ module.exports = alpha = async (alpha, bot) => {
             case 'ytmp3': {
                 if (!text) return reply(`Kirim perintah:\n${prefix+command} link youtube\n\nContoh penggunaan:\n${prefix+command} https://youtu.be/kwop2Eg5QY4`)
                 if (!isUrl(args[0])) return reply(`Kirim perintah:\n${prefix+command} link youtube\n\nContoh penggunaan:\n${prefix+command} https://youtu.be/kwop2Eg5QY4`)
-                if (!args[0].includes('youtu.be') && !args[0].includes('youtube.com')) return reply(`Kirim perintah:\n${prefix+command} link youtube\n\nContoh penggunaan:\n${prefix+command} https://youtu.be/kwop2Eg5QY4`)
+                if (!args[0].includes('youtu.be') && !args[0].includes('youtube.com')) return reply(`Kirim perintah:\n${prefix+command} link youtube\n\nContoh penggunaan:\n${prefix+command} https://youtu.be/khu76kshy2ks`)
                 reply(lang.wait)
                 let res = await fetch(global.api('alfa', '/api/downloader/youtube-audio', {
                     url: args[0]
@@ -409,7 +409,7 @@ module.exports = alpha = async (alpha, bot) => {
             }
             break
             case 'play': {
-                if (!text) return reply(`Kirim perintah:\n${prefix+command} judul lagu\n\nContoh penggunaan:\n\`${prefix+command} bot WhatsApp Zeeoneofc\``)
+                if (!text) return reply(`Kirim perintah:\n${prefix+command} judul lagu\n\nContoh penggunaan:\n\`${prefix+command} integrasi sosial\``)
                 //if (isUrl(text)) return reply(`Kirim perintah:\n${prefix+command} judul lagu\n\nContoh penggunaan:\n${prefix+command} bot WhatsApp Zeeoneofc`)
                 reply(lang.wait)
                 let res = await fetch(global.api('alfa', '/api/downloader/youtube-search', {
